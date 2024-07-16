@@ -1,12 +1,12 @@
-﻿using PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Requests;
+﻿using BPEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers;
+using BusinessObjects.Entities;
+using DataAccess.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using DataAccess.Repository;
+using PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Requests;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using BusinessObjects.Entities;
-using BPEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers;
 
 namespace PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers
 {
@@ -39,6 +39,9 @@ namespace PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers
 
             return response;
         }
+
+
+
         private string GenerateJWT(UserAccount userInfo)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));

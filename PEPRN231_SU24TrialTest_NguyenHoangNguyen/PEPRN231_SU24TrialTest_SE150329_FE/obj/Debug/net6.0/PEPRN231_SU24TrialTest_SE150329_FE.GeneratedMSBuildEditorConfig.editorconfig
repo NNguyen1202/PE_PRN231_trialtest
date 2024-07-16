@@ -9,63 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PEPRN231_SU24TrialTest_SE150329_FE
 build_property.RootNamespace = PEPRN231_SU24TrialTest_SE150329_FE
-build_property.ProjectDir = D:\.code.NN\TrialTest\PEPRN231_SU24TrialTest_NguyenHoangNguyen\PEPRN231_SU24TrialTest_SE150329_FE\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Admin\Desktop\_code.NN\.net\TrialTest.PRN231.new\PEPRN231_SU24TrialTest_NguyenHoangNguyen\PEPRN231_SU24TrialTest_SE150329_FE\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\.code.NN\TrialTest\PEPRN231_SU24TrialTest_NguyenHoangNguyen\PEPRN231_SU24TrialTest_SE150329_FE
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\_code.NN\.net\TrialTest.PRN231.new\PEPRN231_SU24TrialTest_NguyenHoangNguyen\PEPRN231_SU24TrialTest_SE150329_FE
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Account/AccessDenied.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Error.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Index.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Privacy.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Create.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJjb2xvcnNQYWludGluZ01hbmFnZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Delete.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJjb2xvcnNQYWludGluZ01hbmFnZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Details.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJjb2xvcnNQYWludGluZ01hbmFnZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Edit.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJjb2xvcnNQYWludGluZ01hbmFnZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Index.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/WatercolorsPaintingManage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0ZXJjb2xvcnNQYWludGluZ01hbmFnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.code.NN/TrialTest/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/_code.NN/.net/TrialTest.PRN231.new/PEPRN231_SU24TrialTest_NguyenHoangNguyen/PEPRN231_SU24TrialTest_SE150329_FE/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nllvkfgx7s

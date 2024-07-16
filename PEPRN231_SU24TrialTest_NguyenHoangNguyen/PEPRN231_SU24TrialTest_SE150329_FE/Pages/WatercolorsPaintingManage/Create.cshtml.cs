@@ -1,8 +1,7 @@
-﻿using PEPRN231_SU24TrialTest_SE150329_FE;
-using PEPRN231_SU24TrialTest_SE150329_FE.Model;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using PEPRN231_SU24TrialTest_SE150329_FE.Model;
 
 namespace PEPRN231_SU24TrialTest_SE150329_FE.Pages.WatercolorsPaintingManage
 {
@@ -14,7 +13,7 @@ namespace PEPRN231_SU24TrialTest_SE150329_FE.Pages.WatercolorsPaintingManage
             var role = HttpContext.Session.GetString("Role");
             if (role != "3") return Forbid();
             var getCate = $"{Common.BaseURL}/api/Style";
-            var cates = await(await Common.SendGetRequest(getCate, HttpContext.Session.GetString("accessToken"))).Content.ReadFromJsonAsync<List<Style>>();
+            var cates = await (await Common.SendGetRequest(getCate, HttpContext.Session.GetString("accessToken"))).Content.ReadFromJsonAsync<List<Style>>();
             ViewData["StyleId"] = new SelectList(cates, "StyleId", "StyleName");
             return Page();
         }

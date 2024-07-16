@@ -1,24 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using PEPRN231_SU24TrialTest_SE150329_FE.Model;
 using System.Text.Json;
 using System.Text.Json.Nodes;
-using System.Threading.Tasks;
-using PEPRN231_SU24TrialTest_SE150329_FE;
-using PEPRN231_SU24TrialTest_SE150329_FE.Model;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ApplicationModels;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace PEPRN231_SU24TrialTest_SE150329_FE.Pages.WatercolorsPaintingManage
 {
     public class IndexModel : PageModel
     {
-        public IList<WatercolorsPainting> WatercolorsPainting { get;set; } = default!;
+        public IList<WatercolorsPainting> WatercolorsPainting { get; set; } = default!;
         [BindProperty(SupportsGet = true)]
-        public string? SearchByPaintingAuthor {  get; set; }
+        public string? SearchByPaintingAuthor { get; set; }
         [BindProperty(SupportsGet = true)]
-        public decimal? SearchByPublishYear {  get; set; }
+        public decimal? SearchByPublishYear { get; set; }
 
         public async Task<IActionResult> OnGetAsync()
         {
@@ -37,7 +31,7 @@ namespace PEPRN231_SU24TrialTest_SE150329_FE.Pages.WatercolorsPaintingManage
             if (!string.IsNullOrEmpty(SearchByPaintingAuthor)) query = string.Concat(query, "contains(PaintingAuthor,'", SearchByPaintingAuthor, "')");
             if (SearchByPublishYear.HasValue)
             {
-                if(query != "&$filter=")
+                if (query != "&$filter=")
                 {
                     query = string.Concat(query, " Or PublishYear Eq ", SearchByPublishYear);
                 }
@@ -48,5 +42,12 @@ namespace PEPRN231_SU24TrialTest_SE150329_FE.Pages.WatercolorsPaintingManage
             }
             return query;
         }
+
+        public IActionResult OnGetLogout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToPage("/Index");
+        }
+
     }
 }

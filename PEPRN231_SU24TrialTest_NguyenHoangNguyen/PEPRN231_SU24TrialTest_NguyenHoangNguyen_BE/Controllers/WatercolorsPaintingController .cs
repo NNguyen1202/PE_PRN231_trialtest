@@ -28,7 +28,7 @@ namespace PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers
 
         [Authorize(Roles = "3")]
         [HttpPost]
-        public IActionResult Create([FromBody] WatercolorsPainting silverJewelry)
+        public IActionResult Create([FromBody] WatercolorsPainting watercolorsPainting)
         {
             if (!ModelState.IsValid)
             {
@@ -36,15 +36,15 @@ namespace PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers
                            .Where(y => y.Count > 0)
                            .ToList());
             }
-            if (_watercolorsPaintingRepository.GetAll().Where(x => x.PaintingId == silverJewelry.PaintingId).AsNoTracking().FirstOrDefault() != null) return BadRequest("SilverJewelryId already exist!!!");
-            if (_styleRepository.GetAll().Where(x => x.StyleId == silverJewelry.StyleId).AsNoTracking().FirstOrDefault() == null) return BadRequest("CategoryId not exist!!!");
-            _watercolorsPaintingRepository.Create(silverJewelry);
+            if (_watercolorsPaintingRepository.GetAll().Where(x => x.PaintingId == watercolorsPainting.PaintingId).AsNoTracking().FirstOrDefault() != null) return BadRequest("watercolorsPaintingId already exist!!!");
+            if (_styleRepository.GetAll().Where(x => x.StyleId == watercolorsPainting.StyleId).AsNoTracking().FirstOrDefault() == null) return BadRequest("CategoryId not exist!!!");
+            _watercolorsPaintingRepository.Create(watercolorsPainting);
             return Ok();
         }
 
         [Authorize(Roles = "3")]
         [HttpPut]
-        public IActionResult Update(WatercolorsPainting silverJewelry)
+        public IActionResult Update(WatercolorsPainting watercolorsPainting)
         {
             if (!ModelState.IsValid)
             {
@@ -52,9 +52,9 @@ namespace PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers
                            .Where(y => y.Count > 0)
                            .ToList());
             }
-            if (_watercolorsPaintingRepository.GetAll().Where(x => x.PaintingId == silverJewelry.PaintingId).AsNoTracking().FirstOrDefault() == null) return BadRequest();
-            if (_styleRepository.GetAll().Where(x => x.StyleId == silverJewelry.StyleId).AsNoTracking().FirstOrDefault() == null) return BadRequest("CategoryId not exist!!!");
-            _watercolorsPaintingRepository.Update(silverJewelry);
+            if (_watercolorsPaintingRepository.GetAll().Where(x => x.PaintingId == watercolorsPainting.PaintingId).AsNoTracking().FirstOrDefault() == null) return BadRequest();
+            if (_styleRepository.GetAll().Where(x => x.StyleId == watercolorsPainting.StyleId).AsNoTracking().FirstOrDefault() == null) return BadRequest("CategoryId not exist!!!");
+            _watercolorsPaintingRepository.Update(watercolorsPainting);
             return Ok();
         }
         [Authorize(Roles = "3")]

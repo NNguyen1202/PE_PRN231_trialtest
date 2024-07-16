@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace BusinessObjects.Entities
 {
@@ -20,12 +19,11 @@ namespace BusinessObjects.Entities
         public decimal? Price { get; set; }
         [Required]
         public int? PublishYear { get; set; }
-        [Required]
+        [JsonIgnore]
         public DateTime? CreatedDate { get; set; }
         [Required]
         public string? StyleId { get; set; }
-
-        [Required]
+        [JsonIgnore]
         public virtual Style? Style { get; set; }
     }
 }

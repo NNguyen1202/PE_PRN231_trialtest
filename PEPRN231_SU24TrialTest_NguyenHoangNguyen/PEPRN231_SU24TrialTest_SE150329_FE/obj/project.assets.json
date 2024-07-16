@@ -10819,19 +10819,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.code.NN\\TrialTest\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\PEPRN231_SU24TrialTest_SE150329_FE\\PEPRN231_SU24TrialTest_SE150329_FE.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\_code.NN\\.net\\TrialTest.PRN231.new\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\PEPRN231_SU24TrialTest_SE150329_FE\\PEPRN231_SU24TrialTest_SE150329_FE.csproj",
       "projectName": "PEPRN231_SU24TrialTest_SE150329_FE",
-      "projectPath": "D:\\.code.NN\\TrialTest\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\PEPRN231_SU24TrialTest_SE150329_FE\\PEPRN231_SU24TrialTest_SE150329_FE.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\.code.NN\\TrialTest\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\PEPRN231_SU24TrialTest_SE150329_FE\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\_code.NN\\.net\\TrialTest.PRN231.new\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\PEPRN231_SU24TrialTest_SE150329_FE\\PEPRN231_SU24TrialTest_SE150329_FE.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\_code.NN\\.net\\TrialTest.PRN231.new\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\PEPRN231_SU24TrialTest_SE150329_FE\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10839,15 +10844,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\.code.NN\\TrialTest\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "D:\\.code.NN\\TrialTest\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\BusinessObjects\\BusinessObjects.csproj"
+            "C:\\Users\\Admin\\Desktop\\_code.NN\\.net\\TrialTest.PRN231.new\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\_code.NN\\.net\\TrialTest.PRN231.new\\PEPRN231_SU24TrialTest_NguyenHoangNguyen\\BusinessObjects\\BusinessObjects.csproj"
             }
           }
         }
@@ -10856,11 +10860,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -10905,7 +10904,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

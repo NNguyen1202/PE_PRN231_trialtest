@@ -1,8 +1,7 @@
-﻿using PEPRN231_SU24TrialTest_SE150329_FE;
-using PEPRN231_SU24TrialTest_SE150329_FE.Model;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using PEPRN231_SU24TrialTest_SE150329_FE.Model;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 

@@ -1,24 +1,22 @@
 ﻿
 using BPEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers;
-using BusinessObjects.Entities;
-using DataAccess.Repository;
-using Microsoft.AspNetCore.Authorization;
+using DataAccess.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 namespace PEPRN231_SU24TrialTest_NguyenHoangNguyen_BE.Controllers
 {
     public class StyleController : ApiControllerBase
     {
-        public readonly ServiceBase<Style> _styleContext;
-        public StyleController()
+        public readonly IStyleRepository _styleRepository;
+        public StyleController(IStyleRepository styleRepository)
         {
-            _styleContext = new ServiceBase<Style>();
+            _styleRepository = styleRepository;
         }
 
         //[Authorize(Roles = "1")]
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_styleContext.GetAll());
+            return Ok(_styleRepository.GetAll());
         }
     }
 }

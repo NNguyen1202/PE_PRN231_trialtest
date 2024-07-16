@@ -5,7 +5,8 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Watercolors Painting List</h1>
+<a asp-page-handler="Logout">Logout</a>
 <form method="get">
     <div class="form-group" style="margin-bottom: 10px">
         <input asp-for="@Model.SearchByPaintingAuthor" type="text" class="form-control" placeholder="Search by PaitingAuthor" style="max-width: 300px; margin-bottom:10px">
